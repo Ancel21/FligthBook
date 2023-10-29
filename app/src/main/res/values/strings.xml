@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BookingFlight</string>
+    <string name="img_fond">image de fond </string>
+    <string name="comp_te">CREER UN COMPTE </string>
+    <string name="connexion">  Login </string>
+    <string name="mot_passe">    Entrez votre mot de passe</string>
+    <string name="add_email">    Entrez votre adresse e-mail</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="search_title">search_title</string>
+    <string name="d_connexion">Déconnexion</string>
+    <string name="explorer">Explorer</string>
+    <string name="playlist">Playlist</string>
+    <string name="recent">Historique</string>
+    <string name="title_activity_my_spotify_authorization">MySpotifyAuthorizationActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

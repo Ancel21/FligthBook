@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Champs de saisie pour les détails du vol -->
+    <EditText
+        android:id="@+id/editTextOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Origine"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Destination"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextDepartureDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date de départ"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextAdult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="adult"
+        android:minHeight="48dp" />
+
+    <!-- Autres champs de saisie pour les détails du vol -->
+
+    <!-- Bouton de recherche -->
+    <Button
+        android:id="@+id/buttonSearchFlights"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rechercher des vols" />
+
+    <!-- Liste pour afficher les résultats de recherche de vol -->
+    <ListView
+        android:id="@+id/listViewFlights"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

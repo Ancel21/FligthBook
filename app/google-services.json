@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "77149204205",
+    "project_id": "bookingflight-ae73c",
+    "storage_bucket": "bookingflight-ae73c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77149204205:android:dec964161d2cbb9458a6e4",
+        "android_client_info": {
+          "package_name": "com.example.bookingflight"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpoNwVlTQEE-OxNxFkC6P3h_voxH_vWSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
